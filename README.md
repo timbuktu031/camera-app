@@ -1,4 +1,4 @@
-# camera-app
+# Simple Camera Web App
 
 Camera Web App
 HTML, CSS, 자바스크립트로 만들어 보는 카메라 앱 예제입니다.
