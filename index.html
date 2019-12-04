@@ -13,6 +13,11 @@
             width: 100%;
         }
 
+        #header{
+            position: absolute;
+            top: 20px;
+        }
+
         #camera, #camera--view, #camera--sensor, #camera--output{
             position: fixed;
             height: 100%;
@@ -48,8 +53,11 @@
     </style>
 </head>
 <body>
-    <h1>Camera Web App</h1>
-    <p>HTML, CSS, 자바스크립트를 이용한 카메라 앱을 만들어 보자.</p>
+    <div id="header">
+        <h1>Camera Web App</h1>
+        <p>HTML, CSS, 자바스크립트를 이용한 카메라 앱을 만들어 보자.</p>
+    </div>
+    
     <!-- main 태그는 문서의 주요 내용을 담는 태그이다. 한 문서에 한개 존재 해야 한다.
         또한 article, aside, header, nav, footer등 요소의 하위에 사용해서는 안된다.
     -->
